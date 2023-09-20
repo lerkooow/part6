@@ -13,6 +13,11 @@
 6.7: anecdotes, step5  
 6.8: anecdotes, step6  
 
+20.09.2023  
+
+6.9 Better anecdotes, step7  
+
+
 
 
 
