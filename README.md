@@ -16,6 +16,8 @@
 20.09.2023  
 
 6.9 Better anecdotes, step7  
+6.10 Better anecdotes, step8  
+
 
 
 
