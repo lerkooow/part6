@@ -13,6 +13,9 @@
 6.7: anecdotes, step5  
 6.8: anecdotes, step6  
 
+
+## Many reducers
+
 20.09.2023  
 
 6.9 Better anecdotes, step7  
@@ -21,9 +24,14 @@
 6.12 Better anecdotes, step10  
 6.13 Better anecdotes, step11  
 
+
+## Communicating with server in a redux application  
+
 21.09.2023  
 
 6.14 Anecdotes and the backend, step1  
+6.15 Anecdotes and the backend, step2  
+
 
 
 
