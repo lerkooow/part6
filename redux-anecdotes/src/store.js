@@ -4,7 +4,6 @@ import anecdoteReducer, { appendAnecdote, setAnecdotes } from './reducers/anecdo
 import notificationReducer from './reducers/notificationReducer';
 import anecdoteService from './services/anecdotes';
 
-
 const store = configureStore({
     reducer: {
         anecdotes: anecdoteReducer,
@@ -19,8 +18,8 @@ anecdoteService.getAll().then(anecdotes =>
     })
 )
 
-anecdoteService.getAll().then(notes =>
-    store.dispatch(setAnecdotes(notes))
+anecdoteService.getAll().then(anecdotes =>
+    store.dispatch(setAnecdotes(anecdotes))
 )
 
 export default store;
