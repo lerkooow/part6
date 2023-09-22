@@ -13,6 +13,8 @@ const anecdotesSlice = createSlice({
       if (anecdoteToChange) {
         anecdoteToChange.votes += 1;
       }
+      anecdoteService.update(id, anecdoteToChange)
+
     },
     appendAnecdote(state, action) {
       state.push(action.payload)
