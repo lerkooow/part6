@@ -43,6 +43,8 @@
 ## React Query, useReducer and the context  
 
 Exercise 6.20  
+Exercise 6.21  
+
 
 
 
