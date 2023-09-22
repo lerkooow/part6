@@ -40,6 +40,11 @@
 6.18 Anecdotes and the backend, step5  
 6.19 Anecdotes and the backend, step6  
 
+## React Query, useReducer and the context  
+
+Exercise 6.20  
+
+
 
 
 
