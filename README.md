@@ -38,6 +38,7 @@
 22.09.2023  
 
 6.18 Anecdotes and the backend, step5  
+6.19 Anecdotes and the backend, step6  
 
 
 
