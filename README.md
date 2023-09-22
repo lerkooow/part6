@@ -44,6 +44,7 @@
 
 Exercise 6.20  
 Exercise 6.21  
+Exercise 6.22  
 
 
 
