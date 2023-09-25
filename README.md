@@ -47,6 +47,12 @@ Exercise 6.21
 Exercise 6.22  
 
 
+25.09.2023  
+
+Exercise 6.23.  
+
+
+
 
 
 
