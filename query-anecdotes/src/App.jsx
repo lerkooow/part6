@@ -10,11 +10,12 @@ const notificationReducer = (state, action) => {
       return `anecdote "${action.anecdote}" voted`
     case "CREATE":
         return `anecdote "${action.anecdote}" created`
+    case "ERROR":
+        return `${action.message}`
     default:
         return ""
   }
 }
-
 
 const App = () => {
   const [notification, notificationDispatch] = useReducer(notificationReducer, "")

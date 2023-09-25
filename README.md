@@ -50,6 +50,7 @@ Exercise 6.22
 25.09.2023  
 
 Exercise 6.23.  
+Exercise 6.24.  
 
 
 

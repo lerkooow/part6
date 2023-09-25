@@ -11,6 +11,9 @@ const AnecdoteForm = ({ notificationDispatch }) => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['anecdotes'] })
     },
+    onError: (error) => {
+      console.error('Error creating anecdote:', error)
+    },
   })
 
   const onCreate = (e) => {
@@ -24,11 +27,10 @@ const AnecdoteForm = ({ notificationDispatch }) => {
       setTimeout(() => {
         notificationDispatch("");
       }, 5000);
+    } else {
+      notificationDispatch({ type: "ERROR", message: "too short anecdote, must have length 5 or more" })
     }
-    else {
-      console.log('The anecdote must contain at least 5 characters')
-    }
-}
+  }
 
   return (
     <div>
